@@ -61,8 +61,8 @@ OR
 python3 src/shelly.py # if you are using pip
 ```
 ## Example
-```bash
-uv run src/main.py
+```
+> uv run src/main.py
 Shelly – Natural Language to Bash
 
 What do you want to do? (type 'exit' to quit)
