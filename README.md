@@ -56,9 +56,9 @@ cp src/env src/.env
 
 ## Usage
 ```bash
-uv run src/shelly.py
+uv run src/main.py
 OR
-python3 src/shelly.py # if you are using pip
+python3 src/main.py # if you are using pip
 ```
 ## Example
 ```
