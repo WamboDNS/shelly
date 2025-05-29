@@ -24,7 +24,7 @@ You can set up the project using either `pip` or `uv` (a faster, Rust-based pack
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/shelly.git
+git clone https://github.com/wambodns/shelly.git
 cd shelly
 ```
 
