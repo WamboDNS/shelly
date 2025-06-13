@@ -14,6 +14,7 @@ Shelly is a command-line tool that converts natural language input into safe, ex
 
 It provides:
 - A natural language interface to the shell
+- session memory of commands and context
 - Secure command generation with optional confirmation before execution
 - Simple and clean interface to extend
 
@@ -70,7 +71,7 @@ What do you want to do? (type 'exit' to quit)
 
 Suggested command:
 
-Command: ls ..
+ls ..
 
 This command lists all the files and directories in the parent directory. The ".." represents the parent directory in Linux.
 
@@ -82,8 +83,5 @@ fonts			leetcode-adventures	shelly			thesis-obsidian
 What do you want to do? (type 'exit' to quit)
 > exit
 ```
-
-Be careful, this automated command execution is not working for every command yet. Mainly due to security reasons, I'm still looking for a way to make this work. An example is the '*' wildcard.
-However, it is no problem to just copy the returned command and execute it manually! :)
-
 If you want to contribute, have any suggestions or questions, feel free to open an issue, a PR or message me (e.g. on [x](https://x.com/wambosec)).
+
